@@ -1,0 +1,36 @@
+body {
+    background-color: #E8F4F2;
+}
+
+h3 {
+    color: #66BFBF;
+    text-transform: uppercase;
+    
+}
+
+hr {
+    
+    background-color: #E8F4F2;
+    border-style: dotted none none;
+    width: 10%;
+    border-width: 5px;
+    align-self: center;
+}
+
+h1 {
+    color: #66BFBF;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline overline;
+}
+
+p.a {
+    text-indent: 25px;
+    font-size: large;
+    font-family: cursive;
+}
+
+p.b {
+    padding-left: 25px;
+    text-align: justify;
+}

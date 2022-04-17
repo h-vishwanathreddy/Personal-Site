@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Details</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <h2>Hit me Up 👋🏼</h2>
+    <h3><u>Hit me Up</u> 👋🏼</h3>
     <P>Name: H Vishwanath Reddy</P>
 
     <p>Phone: <a href="tel:+919740008939">9740008939</a></p>
@@ -31,20 +32,24 @@
 
     <hr size="3" noshade="">
 
-    <h3><u>Feel free to contact me</u></h3>
+    <h3><u>Feel free to contact me </u></h3>
     
-    <h4>Fill in your contact details</h4>
+    <h3>your contact details 📞</h3>
     <form action="mailto:vishwanathreddyh1@gmail.com" method="post" enctype="text/plain">
         <label for="">Your Name:</label>
         <input type="text" name="yourName">
         <br>
         <br>
-        <label for="">your Email:</label>
+        <label for="">Phone No. :</label>
+        <input type="tel" name="yourNumber" pattern="[1-9]{1}[0-9]{9}" maxlength="10" minlength="10">
+        <br>
+        <br>
+        <label for="">Your Email:</label>
         <input type="email" name="yourEmail">        
         <br>
         <br>
         <label for="">Anything you'd like to share: </label><br>
-        <textarea name="Suggestions" id="" cols="30" rows="10"></textarea>
+        <textarea name="Suggestions" id="" cols="30" rows="5"></textarea>
         <input type="submit">
     </form>
 </body>
