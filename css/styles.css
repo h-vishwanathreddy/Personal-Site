@@ -34,10 +34,10 @@ h1 {
 }
 
 h1 span{
-    transition: .5s linear
+    transition: .5s linear;
   }
   h1:hover span:nth-child(1){
-    margin-right: 5px
+    margin-right: 5px;
   }
 
   h1:hover span{
