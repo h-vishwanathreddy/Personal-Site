@@ -2,6 +2,22 @@ body {
     background-color: #E8F4F2;
 }
 
+#heading {
+    animation-name: slidein;
+    animation-duration: 1s;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 300%;
+        width: 100%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
 p.a {
     text-align-last: center;
 }
@@ -38,3 +54,4 @@ footer{
 div {
     padding-left: 15px;
 }
+

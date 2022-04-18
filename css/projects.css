@@ -1,11 +1,11 @@
 body {
     background-color: #E8F4F2;
+    margin: 1em;
 }
 
 h3 {
     color: #66BFBF;
     text-transform: uppercase;
-    
 }
 
 hr {
@@ -19,9 +19,22 @@ hr {
 
 h1 {
     color: #66BFBF;
-    text-transform: uppercase;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
     text-decoration: underline overline;
+    animation-name: slidein;
+    animation-duration: 2s;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 100%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
 }
 
 p.a {
