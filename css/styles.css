@@ -34,10 +34,10 @@ h1 {
 }
 
 h1 span{
-    transition: .5s linear;
+    transition: .5s linear
   }
   h1:hover span:nth-child(1){
-    margin-right: 5px;
+    margin-right: 5px
   }
 
   h1:hover span{
@@ -47,7 +47,7 @@ h1 span{
 h3 {
     color: #66BFBF;
     text-transform: uppercase;
-    
+    padding: 10px;
 }
 
 hr {
@@ -67,3 +67,32 @@ div {
     padding-left: 15px;
 }
 
+.x {
+    width: 70%;
+    margin-left: 50px;
+    text-align: center;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+.y {
+    height: 50px;
+    border-bottom: 1px solid #ddd;
+    background-color: #c6cece;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+.z {
+    height: 25px;
+    border-bottom: 1px solid #ddd;
+    margin-left: 10px;
+    text-align: center;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+
+tr:nth-child(even) {background-color: #f2f2f2;}
