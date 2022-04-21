@@ -1,6 +1,7 @@
 body {
     background-color: #E8F4F2;
     margin: 1em;
+    
 }
 
 h3 {
@@ -37,7 +38,7 @@ h1 {
     }
 }
 
-p.a {
+.a {
     text-indent: 25px;
     font-size: large;
     font-family: cursive;

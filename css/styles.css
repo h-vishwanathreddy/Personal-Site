@@ -26,6 +26,7 @@ p.b {
     text-indent: 10px;
 }
 
+
 h1 {
     color: #66BFBF;
     text-transform: uppercase;
@@ -99,10 +100,29 @@ div {
 tr:nth-child(even) {background-color: #f2f2f2;}
 
 .plink {
-    background-color: whitesmoke;
+    background: whitesmoke;
     color: #F55353;
     display: inline-block;
     padding: 15px 25px;
+    position: relative;
     text-align: center;
     text-decoration: none;
+}
+
+.plink::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #F55353;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.plink:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
